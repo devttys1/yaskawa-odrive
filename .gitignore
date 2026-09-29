@@ -1,0 +1,19 @@
+build/
+
+# CubeIDE managed-build output.  Anchored to the root: an unanchored
+# "Debug/" also matches tools/debug/, which silently excluded the whole
+# debug toolkit from the repository.
+/Debug/
+/Release/
+
+*.o
+*.elf
+*.bin
+*.map
+.DS_Store
+__pycache__/
+
+# CubeMX / CubeIDE local state
+.mxproject
+.osx.project
+*_save
